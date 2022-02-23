@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+:root{
+    --colorPrincipal: #16222A;
+    --fontColor: #fff;
+    --fontFamily: 'Chakra Petch', sans-serif;
+}
+html{
+    box-sizing: border-box;
+    font-size: 65.5%; /*1REM=10px*/
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none ;
+    color: #fff;
+}
+
+body{
+    background-color: #21333f; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: var(--fontFamily);
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--colorPrincipal);
+    height: 100vh;
+    width: 27rem;
+    padding: 1rem;
+    color:#fff;
+    font-weight: bold;
+    box-shadow: 6px 2px 17px -3px rgba(0,0,0,0.56);
+-webkit-box-shadow: 6px 2px 17px -3px rgba(0,0,0,0.56);
+-moz-box-shadow: 6px 2px 17px -3px rgba(0,0,0,0.56);
+}
+.empresa{
+    display: flex;
+    
+    border-bottom: 1px solid #e1e1e1;
+}
+.empresa p{
+    font-weight: 700;
+    font-size: 1.1rem;
+    
+}
+.categorias{
+    margin-top: 1rem;
+    
+}
+.categorias div{
+    padding: .2rem 0;
+}
+.categorias p{
+    font-size: 2.5rem;
+}
+.clientes, .vehiculos, .empleados{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clientes a, .vehiculos a, .empleados a{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.arrow{
+    font-size: 2rem;
+    justify-self: flex-end;
+    
+}
+ion-icon{
+    font-size: 3.4rem;
+}
