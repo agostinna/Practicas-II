@@ -15,36 +15,74 @@
             <img src="" alt="">
             <h1>Pueblo Nuevo Transportes</h1>
         </div>
-        <div class="categorias">  
-            <div class="clientes">
-                <a href="#">
-                     <ion-icon name="people"></ion-icon>
-                    <p>Clientes</p> 
-                </a>
-              
-                <ion-icon name="chevron-down" class="arrow"></ion-icon>
-            </div>
-            <div class="empleados">
-                <a href="#">
-                     <ion-icon name="briefcase"></ion-icon>
-                     <p>Empleados</p>
-                </a>
-               
-                <ion-icon name="chevron-down" class="arrow"></ion-icon>
-            </div>
-            <div class="vehiculos">
-                <a href="">
-                    <ion-icon name="car"></ion-icon>
-                    <p>Vehiculos</p>
-                </a>
+        <nav class="categorias">  
+            <ul>
+                <li>
+                    <div class="clientes list-button">
+                        <a href="#">
+                            <ion-icon name="people"></ion-icon>
+                            <p>Clientes</p> 
+                        </a>
+                        <ion-icon name="chevron-down" class="list-arrow "></ion-icon>
+                    </div>
+            
+                    <ul class="list__show">
+                        <li class="list__inside">
+                            <a href="#" class="nav__link nav__link--inside">Lista clientes</a>
+                        </li>
+    
+                        <li class="list__inside">
+                            <a href="#" class="nav__link nav__link--inside">Alta Cliente</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="empleados list-button">
+                        <a href="#">
+                            <ion-icon name="briefcase"></ion-icon>
+                            <p>Empleados</p>
+                        </a>
                 
-                <ion-icon name="chevron-down" class="arrow"></ion-icon>
-            </div>
-        </div>
+                        <ion-icon name="chevron-down" class="list-arrow"></ion-icon>
+                    </div>
+                    <ul class="list__show">
+                        <li class="list__inside">
+                            <a href="#" class="nav__link nav__link--inside">Lista Empleados</a>
+                        </li>
+    
+                        <li class="list__inside">
+                            <a href="#" class="nav__link nav__link--inside">Alta Empleados</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="vehiculos list-button">
+                        <a href="#">
+                            <ion-icon name="car"></ion-icon>
+                            <p>Vehiculos</p>
+                        </a>
+                    
+                        <ion-icon name="chevron-down" class="list-arrow"></ion-icon>
+                    </div>
+                    <ul class="list__show">
+                        <li class="list__inside">
+                            <a href="#" class="nav__link nav__link--inside">Lista Vehículos</a>
+                        </li>
+    
+                        <li class="list__inside">
+                            <a href="#" class="nav__link nav__link--inside"></a>
+                        </li>
+                    </ul>
+                </li>
+               
+            </ul>
+          
+        </nav>
 
     </div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
     
 </body>
 </html>
